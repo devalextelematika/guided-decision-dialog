@@ -1,0 +1,22 @@
+{
+  "name": "guided-decision-dialog",
+  "interface": {
+    "displayName": "Guided Decision Dialog"
+  },
+  "plugins": [
+    {
+      "name": "guided-decision-dialog",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/devalextelematika/guided-decision-dialog.git",
+        "path": "./plugins/guided-decision-dialog",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
